@@ -1,0 +1,52 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d6d7e;
+}
+
+#wrapper {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #808b96;
+  border-radius: 10px;
+  box-shadow: -5px 5px 20px 10px black;
+}
+
+#root {
+  position: absolute;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  padding: 2px;
+  font: 12px;
+  background: #d5d8dc;
+  box-shadow: 1px 1px 10px;
+  border-radius: 2px;
+  pointer-events: none;
+  position: absolute;
+}
+
+.overlay {
+  background: #28b463;
+  pointer-events: none;
+  position: absolute;
+}
